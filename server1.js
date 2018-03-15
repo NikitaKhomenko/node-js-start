@@ -7,7 +7,7 @@ var server = http.createServer().listen(3000);
 
 server.on('request', function (req, res) {
     if (req.method == 'POST') {
-        var body = 'ilya_test';
+        var body = 'nikita_test';
     }
 
     req.on('data', function (data) {
